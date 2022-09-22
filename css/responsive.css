@@ -1,0 +1,1641 @@
+@media(min-width:1500px) {
+    header nav ul li a {
+        font-size: 1.5rem;
+        margin: 0 20px;
+    }
+
+    header .container nav ul li a {
+        margin: 0 0px;
+    }
+
+
+    .container {
+        max-width: 1340px;
+    }
+
+    header .container {
+        max-width: 1740px;
+    }
+
+    section,
+    footer,
+    header {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeHero,
+    .hero {
+        height: 60vh;
+    }
+
+
+    .containerClient {
+        border-top-right-radius: 100px;
+    }
+
+    .containerKerjasama .container {
+        border-top-left-radius: 100px;
+    }
+
+    .contentArtikel .container .thumbnail {
+        height: 500px;
+    }
+
+    .containerModal .modal {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+
+    /* Home */
+    .homeHero .heroLeft {
+        display: none;
+    }
+
+    .homeHero .caption {
+        width: 60%;
+    }
+
+    .homeHero .caption h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .homeHero .caption p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .homeHero .heroImage {
+        height: 400px;
+        right: -190px;
+    }
+
+    .fitur li,
+    .keunggulan .container {
+        flex-wrap: wrap;
+    }
+
+    .fitur .perFitur,
+    .keunggulan .perKeunggulan {
+        width: calc(90%/2);
+    }
+
+    /* Home */
+
+
+    /* Artikel */
+    .artikel .perArtikel {
+        width: calc(93%/2);
+    }
+
+
+    .heroArtikel .container {
+        width: 100%;
+    }
+
+    /* Artikel */
+
+    /* Detail Event Start*/
+    .contentEvent .container .caption {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .contentEvent .container .caption h1 {
+        font-size: 1.7rem;
+        font-weight: 650;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+
+    .contentEvent .container .img {
+        width: 50%;
+    }
+
+
+    .detailAcara .waktuPelaksanaan .date .waktu .icon,
+    .detailAcara .waktuPelaksanaan .date .tanggal .icon {
+        font-size: .9rem;
+        margin-right: 10px;
+    }
+
+
+
+    .detailHarga {
+        width: 40%;
+    }
+
+
+    .containerModal .modal {
+        width: 80%;
+    }
+
+    /* Detail Event End */
+
+
+}
+
+@media (max-width: 1000px) {
+
+    article,
+    header,
+    article,
+    section,
+    .containerKerjasama .container {
+        padding: 0 50px;
+    }
+
+    footer .container {
+        padding-left: 50px;
+    }
+
+    .footer .container,
+    .containerKerjasama .container {
+        padding: 50px 50px 0 50px;
+        margin-left: 0;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+
+
+    /* Per Artikel */
+    .contentArtikel .container .thumbnail {
+        height: 270px;
+    }
+
+    .contentArtikel .content {
+        width: 100%;
+    }
+
+    .rekomendasiArtikel .perArtikel {
+        width: calc(93%/2);
+    }
+
+    /* Per Artikel */
+
+    /* Event */
+
+    .Event .container .program .masihBerlangsung .perMasihBerlangsung {
+        margin: 10px 5px;
+    }
+
+    .Event .container .program .masihBerlangsung .perMasihBerlangsung .date p {
+        font-size: .9rem;
+    }
+
+    .Event .container .program .masihBerlangsung .perMasihBerlangsung .btn button {
+        font-size: .9rem;
+    }
+
+    /* Event */
+
+    /* Login */
+
+    .containerLogin .container .login {
+        width: 60%;
+    }
+
+    /* Login */
+
+}
+
+
+@media(max-width:900px) {
+
+    article,
+    header,
+    section,
+    footer,
+    .containerKerjasama .container {
+        padding: 0 25px;
+    }
+
+    .hero img {
+        width: 50%;
+    }
+
+
+    .hero .caption {
+        width: 50%;
+    }
+
+    .hero .caption h1 {
+        font-size: 2.2rem;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero .caption p {
+        font-size: 1.1rem;
+        /* font-weight: 400; */
+        /* color: var(--putih); */
+    }
+
+    .hero .caption a {
+        /* margin-top: 30px; */
+    }
+
+
+
+    /* event */
+
+    .Event .container .sorting {
+        width: 40%;
+    }
+
+    .Event .container .program {
+        width: 60%;
+    }
+
+    .Event .container .program .masihBerlangsung .perMasihBerlangsung {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .Event .container .program .masihBerlangsung .perMasihBerlangsung .btn button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    /* event */
+
+
+
+    /* Halaman Detail Event start */
+    .contentEvent {
+        height: 100%;
+    }
+
+    .contentEvent .container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .contentEvent .container .caption {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contentEvent .container .caption h1 {
+        font-size: 2rem;
+        font-weight: 650;
+        line-height: 45px;
+        margin: 30px 0;
+    }
+
+    .contentEvent .container .caption p {
+        font-size: 1.2rem;
+    }
+
+    .contentEvent .container .img {
+        width: 100%;
+        height: 300px;
+    }
+
+
+
+
+
+    .detailEvent .container {
+        flex-wrap: wrap;
+    }
+
+    .detailAcara {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+
+    .detailHarga {
+        width: 100%;
+        position: static;
+        top: 0;
+    }
+
+
+
+    .detailHarga button {
+        padding: 15px;
+    }
+
+    /* Halaman Detail Event end */
+
+
+
+
+    /* Kontak */
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+
+
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+
+    /* Kontak */
+
+}
+
+
+@media(max-width:800px) {
+
+    .title {
+        padding: 30px 0 0 0;
+        font-size: 1.2rem;
+    }
+
+    .merchantBox .perMerchant {
+        width: calc(90%/3);
+        padding: 10px 5px;
+    }
+
+    .merchantBox img {
+        max-height: 100%;
+    }
+
+    .containerClient {
+        border-top-left-radius: 0;
+        padding-bottom: 50px;
+    }
+
+    .containerClient .clientTitle {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .containerClient .clientTitle h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .containerClient .clientTitle p {
+        width: 100%;
+    }
+
+    .containerKerjasama {
+        padding: 0 25px;
+        background-color: #111827;
+    }
+
+    .containerKerjasama .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 50px 0;
+        border-top-right-radius: 0;
+        background-color: transparent;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .footer {
+        margin: 0;
+        background-color: #111827;
+    }
+
+    .footer .container {
+        width: 100%;
+        padding: 0 15px;
+        background-color: transparent;
+    }
+
+    footer {
+        background-color: #111827;
+    }
+
+    footer .container {
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 0;
+        padding-left: 0;
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+    }
+
+
+    /* Artikel */
+    .heroArtikel {
+        margin-bottom: 30px;
+    }
+
+    .subArtikel {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    .artikelPilihan .bigArtikel {
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    }
+
+    .artikelPilihan .bigArtikel img {
+        width: 100%;
+        border-radius: 10px;
+        height: 300px;
+    }
+
+    .artikelPilihan .bigArtikel:hover img {
+        transform: scale(1);
+    }
+
+    .artikelPilihan .bigArtikel .detailArtikel {
+        width: 100%;
+        padding: 20px 20px 30px 20px;
+    }
+
+    /* Artikel */
+
+
+
+    /* event */
+    .heroEvent .container form {
+        width: 100%;
+    }
+
+    .keteranganProgram span {
+        font-size: .9rem;
+        padding: 20px 10px;
+    }
+
+    /* event */
+
+
+
+    /* Login */
+    .containerLogin .container .login {
+        width: 80%;
+    }
+
+    .containerLogin .container h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Login */
+
+
+    /* Detail Event */
+
+    .containerModal .modal {
+        width: 100%;
+    }
+
+    /* Detail Event */
+
+
+}
+
+@media(max-width:700px) {
+
+    header nav {
+        display: none;
+    }
+
+    .navMobile {
+        display: inline-block;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .toTop {
+        bottom: 1.16rem;
+        right: 40%;
+    }
+
+    .homeHero .container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .homeHero {
+        height: 100%;
+    }
+
+    .homeHero .caption {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .homeHero .caption h1 {
+        font-size: 2.8rem;
+        line-height: 60px;
+    }
+
+    .homeHero .heroImage {
+        width: 100%;
+        height: 400px;
+        min-width: 100%;
+        margin-top: 15vh;
+        position: static;
+    }
+
+    .fitur li,
+    .keunggulan .container {
+        margin-top: 25px;
+    }
+
+    .fitur .perFitur,
+    .keunggulan .perKeunggulan {
+        width: 80%;
+    }
+
+
+    .hero {
+        margin-top: 50px;
+    }
+
+    .hero .container {
+        height: 100%;
+        flex-wrap: wrap-reverse;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .hero img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+
+    .hero .caption {
+        width: 100%;
+    }
+
+
+
+    /* Event */
+    .heroEvent .container h1 {
+        font-size: 1.9rem;
+        font-weight: 700;
+    }
+
+    .heroEvent .container p {
+        font-size: 1rem;
+    }
+
+    .Event .sorting {
+        display: none;
+    }
+
+    .Event .container .program {
+        width: 100%;
+        padding: 0;
+    }
+
+    .keteranganProgram {
+        display: flex;
+        position: inherit;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 4px solid #e4e4e7;
+        margin-bottom: 20px;
+        padding: 10px 0;
+    }
+
+    .keteranganProgram span {
+        width: 50%;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    .sortingMobile {
+        display: inherit;
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung img {
+        height: 350px;
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung h2 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung h3 {
+        font-size: 1.5rem
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung p {
+        font-size: 1.1rem;
+    }
+
+    /* Event */
+
+
+    /* Login */
+    .containerLogin .container .login {
+        width: 100%;
+    }
+
+    .containerLogin .container h1 {
+        font-size: 2rem;
+    }
+
+    /* Login */
+
+
+
+
+
+    /* Per Artikel */
+    .contentArtikel .container .thumbnail {
+        height: 250px;
+    }
+
+
+
+    .containerArtikelLainnya .artikelLainnya {
+        flex-wrap: wrap;
+    }
+
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya {
+        width: calc(100%/2);
+    }
+
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya img {
+        height: 120px;
+    }
+
+    .rekomendasiArtikel .perArtikel {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .contentArtikel .author .authorDetail p {
+        display: none;
+
+    }
+
+    /* Per Artikel */
+
+}
+
+@media(max-width:650px) {
+    .artikel .perArtikel {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .artikel .perArtikel img {
+        height: 300px;
+    }
+
+    .artikel .perArtikel .detailArtikel {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:600px) {
+
+    .fitur .perFitur,
+    .keunggulan .perKeunggulan {
+        width: 90%;
+    }
+
+    /* Kontak */
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 0;
+    }
+
+    /* Kontak */
+
+    /* Halaman Detail Event Start */
+
+    .contentEvent .caption h1 {
+        font-size: 1.7rem;
+        line-height: 37px;
+        margin: 20px 0;
+    }
+
+    .contentEvent .caption p {
+        font-size: 1.1rem;
+    }
+
+    .contentEvent .img {
+        height: 250px;
+    }
+
+    /* Halaman Detail Event End */
+}
+
+@media(max-width:500px) {
+
+
+    /* Kontak */
+    .kontak .container img {
+        height: 20rem;
+        margin-bottom: 10px;
+    }
+
+    /* Kontak */
+    .title p {
+        font-size: .9rem;
+    }
+
+    .navMobile {
+        width: 60%;
+    }
+
+    .title ul li,
+    .heroArtikel ul li p {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    form .input-group button {
+        width: 25%;
+    }
+
+    form textarea,
+    form input {
+        font-size: .8rem;
+    }
+
+    article,
+    header,
+    section,
+    footer,
+    .title,
+    .containerKerjasama {
+        padding: 0 15px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .homeHero .container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .homeHero {
+        height: 100%;
+    }
+
+    .homeHero .caption {
+        width: 100%;
+        margin-top: 3vh;
+        margin-bottom: 50px;
+    }
+
+    .homeHero .heroImage {
+        width: 100%;
+        height: 300px;
+        min-width: 100%;
+        margin-top: 15vh;
+        position: static;
+    }
+
+    .fitur .perFitur,
+    .keunggulan .perKeunggulan {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .hero .caption h1 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .hero .caption p {
+        font-size: 1.1rem;
+    }
+
+
+
+
+    .footer .container {
+        padding: 0;
+    }
+
+    .containerClient .clientTitle p {
+        font-size: 1.2rem;
+    }
+
+
+    .containerKerjasama .container .caption h2 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .containerKerjasama .container .caption p {
+        font-size: 1.1rem;
+    }
+
+
+    /* Event */
+    .Event .program .masihBerlangsung .perMasihBerlangsung img {
+        height: 200px;
+    }
+
+    /* Event */
+
+
+    /* Detail Event Start */
+
+    .detailAcara .waktuPelaksanaan .date {
+        flex-wrap: wrap;
+    }
+
+    .detailAcara .waktuPelaksanaan .date .tanggal p,
+    .detailAcara .waktuPelaksanaan .date .waktu p {
+        font-size: 1rem;
+    }
+
+    .detailAcara .waktuPelaksanaan .date .tanggal .icon,
+    .detailAcara .waktuPelaksanaan .date .waktu .icon {
+        font-size: 1rem;
+        margin-right: 15px;
+    }
+
+
+    .detailAcara .waktuPelaksanaan .date .tanggal p {
+        margin-bottom: 15px;
+    }
+
+
+    .tentangPembicara .orang .profilOrang img {
+        width: 70px;
+        height: 60px;
+    }
+
+    /* Detail Event End */
+
+
+
+    /* Detail Artikel */
+    .content .identitas {
+        flex-wrap: wrap;
+    }
+
+    .content .identitas .perIdentitas {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Detail Artikel */
+
+
+    /* Artikel */
+
+
+    .heroArtikel h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .artikelPilihan .bigArtikel img {
+        height: 200px;
+    }
+
+    .artikel .perArtikel img {
+        height: 200px;
+    }
+
+
+    /* Artikel */
+
+}
+
+@media(max-width:450px) {
+
+    /* event */
+    .heroEvent .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .heroEvent .container p {
+        font-size: .9rem;
+    }
+
+
+    .sortingMobile .filter .containerFilter .boxFilter .button {
+        flex-wrap: wrap-reverse;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .button button {
+        margin: 0;
+        width: 100%;
+        padding: 8px 10px;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .button button:first-child {
+        margin-top: 10px;
+    }
+
+    /* event */
+
+
+
+
+
+
+    /* Login */
+
+    .containerLogin .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .containerLogin .container .login h2 {
+        font-size: 1.3rem;
+    }
+
+    .containerLogin .container .login p {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    /* Login */
+
+
+
+    /* Per Artikel */
+
+    .contentArtikel .container .titleArtikel {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .contentArtikel .container .writer {
+        font-size: .8rem;
+        line-height: 20px;
+    }
+
+    .contentArtikel .container h3 {
+        font-size: 1.3rem;
+    }
+
+    /* Per Artikel */
+
+
+
+    /* Halaman Detail Event Start */
+
+    .contentEvent .container .caption h2 {
+        font-size: 1.6rem;
+    }
+
+    .contentEvent .container .caption h1 {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    .contentEvent .container .caption p {
+        font-size: 1rem;
+    }
+
+    .contentEvent .container .img {
+        height: 200px;
+    }
+
+
+    .detailHarga button {
+        padding: 10px;
+    }
+
+    .tentangPembicara .orang {
+        padding: 0;
+        border: none;
+    }
+
+    .tentangPembicara .orang .profilOrang {
+        flex-wrap: wrap;
+    }
+
+    .tentangPembicara .orang .profilOrang img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+    /* Halaman Detail Event End */
+}
+
+
+@media(max-width:400px) {
+
+
+    /* Kontak */
+    .kontak .container img {
+        height: 15rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.9rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        font-size: .9rem;
+    }
+
+    /* Kontak */
+
+    .homeHero .caption {
+        margin-top: 0;
+    }
+
+    .homeHero .caption h1 {
+        font-size: 2rem;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .homeHero .caption p {
+        font-size: 1rem;
+    }
+
+    .homeHero .caption a {
+        font-size: .9rem;
+    }
+
+    .homeHero .heroImage {
+        height: 250px;
+        top: 13vh;
+    }
+
+    .hero img {
+        height: 200px;
+    }
+
+    .hero .caption h1 {
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+
+    .hero .caption p {
+        font-size: 1rem;
+    }
+
+    .hero .caption a {
+        font-size: .9rem;
+    }
+
+    .containerKerjasama .container .caption h2,
+    .containerClient .clientTitle h2 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+
+    .containerKerjasama .container .caption p,
+    .containerClient .clientTitle p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .footer .box h2 {
+        font-size: 1.7rem;
+    }
+
+    /* Event */
+
+    .sortingMobile .urutkan h2 {
+        margin-right: 50px;
+    }
+
+    .keteranganProgram span {
+        font-size: .9rem;
+    }
+
+
+
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung .date .icon,
+    .Event .program .masihBerlangsung .perMasihBerlangsung .date p {
+        font-size: .9rem;
+    }
+
+
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung h2 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+
+    /* Event */
+
+
+
+    /* Detail Event */
+
+    .content h3 {
+        font-size: 1.2rem !important;
+    }
+
+    .containerModal .modal .modal-footer {
+        flex-wrap: wrap;
+    }
+
+    .containerModal .modal .modal-footer button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .containerModal .modal .modal-footer h2 {
+        font-size: 1.1rem;
+        margin: 20px 0;
+    }
+
+
+    .containerModal .modal .modal-body form .form-group label {
+        font-size: .9rem;
+    }
+
+    /* Detail Event */
+
+
+    /* Artikel */
+
+    .artikel .perArtikel .detailArtikel {
+        padding-left: 15x;
+        padding-right: 15x;
+    }
+
+    .artikel .perArtikel .detailArtikel h3 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .kategori {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+
+    /* Artikel */
+
+
+
+
+    /* Detail Artikel */
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+
+    .contentArtikel .author .authorDetail {
+        margin-left: 15px;
+    }
+
+    .contentArtikel .author img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contentArtikel .author .authorDetail h3 {
+        font-size: 1.1rem;
+        line-height: 15px;
+    }
+
+    .contentArtikel .author .authorDetail span {
+        font-size: .8rem;
+    }
+
+
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya img {
+        height: 150px;
+    }
+
+    .containerArtikelLainnya .artikelLainnya .perArtikelLainnya p {
+        font-size: .9rem;
+        line-height: 1.3rem;
+
+    }
+
+
+    /* Detail Artikel */
+
+
+
+}
+
+@media(max-width:350px) {
+    .toTop .icon {
+        font-size: .8rem;
+    }
+
+    .toTop p {
+        font-size: .8rem;
+    }
+
+    .navMobile {
+        width: 100%;
+    }
+
+    .navMobile ul li a {
+        padding-left: 10px;
+    }
+
+    footer .container p {
+        font-size: .9rem;
+    }
+
+    footer .container p span {
+        font-size: 1rem;
+    }
+
+    /* Event */
+
+    .heroEvent .container form button {
+        width: 30%;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .title .icon {
+        font-size: 1.2rem;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .title h4 {
+        font-size: 1.2rem;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .close {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-top: -5px;
+    }
+
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung p {
+        font-size: .9rem;
+    }
+
+    /* Event */
+
+
+
+
+    /* Login */
+    .containerLogin .container .login form .form-info label,
+    .containerLogin .container .login form .form-info a {
+        font-size: .9rem;
+    }
+
+    .login form .form-info {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .login form .form-info .ingatSaya input {
+        margin-bottom: 20px;
+    }
+
+    /* Login */
+
+
+
+
+
+    /* Halaman Detail Event Start */
+
+    .contentEvent .container .caption h2 {
+        font-size: 1.2rem;
+    }
+
+    .contentEvent .container .caption h1 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .contentEvent .container .caption p {
+        font-size: .9rem;
+    }
+
+    .contentEvent .container .img {
+        height: 170px;
+    }
+
+
+
+
+
+    .detailAcara .deskripsi p,
+    .detailAcara .deskripsi ol {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .detailAcara .deskripsi ol {
+        padding: 0 10px;
+    }
+
+    .detailAcara .deskripsi ol li {
+        padding: 5px;
+    }
+
+    /* Halaman Detail Event End */
+
+
+    /* Artikel */
+    .artikel .perArtikel .detailArtikel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* Artikel */
+
+
+
+    /* Detail Artikel */
+    .content p {
+        line-height: 25px;
+        font-size: .9rem;
+    }
+
+    .share h4 {
+        font-size: .8rem;
+    }
+
+
+    .share .sosialMedia {
+        margin-left: 5px;
+    }
+
+    .share .sosialMedia .perSosialMedia {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+
+    .rekomendasiArtikel .perArtikel h3 {
+        font-size: 1rem;
+        padding: .4rem .5rem;
+    }
+
+    .rekomendasiArtikel .perArtikel .authorRekomendasiArtikel img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .rekomendasiArtikel .perArtikel .authorRekomendasiArtikel .detailAuthor {
+        margin-left: 10px;
+    }
+
+    .rekomendasiArtikel .perArtikel .authorRekomendasiArtikel .detailAuthor a {
+        font-size: .9rem;
+    }
+
+    .rekomendasiArtikel .perArtikel .authorRekomendasiArtikel .detailAuthor p {
+        font-size: .7rem;
+    }
+
+    .contentArtikel {
+        padding-bottom: 25px;
+    }
+
+    /* Detail Artikel */
+
+}
+
+@media(max-width:300px) {
+
+
+    /* Kontak */
+    .kontak .container img {
+        height: 10rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.6rem;
+    }
+
+    .kontak .container .caption label {
+        font-size: .95rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        padding-left: 10px;
+        font-size: .8rem;
+    }
+
+    .kontak .container .caption button {
+        width: 100%;
+    }
+
+    /* Kontak */
+
+    .homeHero .caption h1 {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+
+    .homeHero .caption p {
+        font-size: .95rem;
+    }
+
+    .homeHero .caption a {
+        font-size: .9rem;
+    }
+
+    .homeHero .heroImage {
+        height: 180px;
+    }
+
+    .keunggulan .perKeunggulan .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .fitur .perFitur h2,
+    .keunggulan .perKeunggulan h2 {
+        font-size: 1.2rem;
+    }
+
+    .fitur .perFitur p,
+    .keunggulan .perKeunggulan p {
+        font-size: .9rem;
+    }
+
+    .hero img {
+        height: 150px;
+    }
+
+    .hero .caption h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .hero .caption p {
+        font-size: .95rem;
+    }
+
+    .hero .caption a {
+        font-size: .8rem;
+    }
+
+
+
+    .footer .box p {
+        font-size: .9rem;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .container p {
+        font-size: .8rem;
+    }
+
+
+    /* Event */
+    .keteranganProgram span {
+        font-size: .8rem;
+    }
+
+    .sortingMobile .filter,
+    .sortingMobile .urutkan {
+        width: 100%;
+    }
+
+    .sortingMobile .filter .tombol {
+        flex-direction: row-reverse;
+    }
+
+    .sortingMobile .urutkan {
+        margin-top: 20px;
+    }
+
+
+    .sortingMobile {
+        flex-wrap: wrap;
+    }
+
+    .sortingMobile .urutkan h2 {
+        margin-right: 10px;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .title .icon,
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .title h4 {
+        font-size: 1rem;
+    }
+
+    .sortingMobile .filter .containerFilter .boxFilter .containerTitle .close {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-top: -5px;
+    }
+
+
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung h2 {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung img {
+        height: 170px;
+    }
+
+    .Event .program .masihBerlangsung .perMasihBerlangsung h3 {
+        font-size: 1.2rem;
+    }
+
+
+    /* Event */
+
+
+
+    /* Per Artikel */
+
+    .contentArtikel .container .thumbnail {
+        height: 170px;
+    }
+
+    /* Per Artikel */
+
+
+
+
+    /* Halaman Detail Event Start */
+
+    .detailAcara .deskripsi p,
+    .detailAcara .deskripsi ol {
+        font-size: .9rem;
+    }
+
+
+    .tentangPembicara .orang p {
+        font-size: .9rem;
+    }
+
+    .tentangPembicara .orang .profilOrang img {
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+    /* Halaman Detail Event End */
+
+}

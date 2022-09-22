@@ -1,0 +1,707 @@
+/* Event */
+.heroEvent {
+    width: 100%;
+    height: 70vh;
+    background-color: #eff2f6;
+}
+
+.heroEvent .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heroEvent .container h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #302f2f;
+}
+
+.heroEvent .container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #302f2f;
+}
+
+
+.heroEvent .container form {
+    width: 40%;
+    height: 50px;
+    /* background-color: red; */
+    position: relative;
+}
+
+
+.heroEvent .container form input:focus~button {
+    outline: 2px ridge #302f2f;
+}
+
+.heroEvent .container form button {
+    background-color: rgb(46, 46, 46);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Event {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8fafc;
+}
+
+.Event .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Event .sorting {
+    width: 30%;
+    top: 12vh;
+    position: sticky;
+    align-self: flex-start;
+}
+
+.Event .sorting h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #4a4b4c;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.Event .sorting .urutkan .boxUrutkan:hover {
+    cursor: pointer;
+}
+
+.Event .sorting .urutkan .boxUrutkan {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    color: #3f3f3f;
+    padding: 1rem;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.Event .sorting .urutkan .boxUrutkan span {
+    font-weight: 600;
+}
+
+
+
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan.show {
+    display: flex;
+}
+
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999999999;
+    background-color: #fff;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    padding: .5rem 0;
+}
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan span {
+    padding: 1rem;
+}
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan span.active {
+    background-color: #5441fa;
+    border: 1px solid #e4e4e7;
+    color: #fff;
+}
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan span.active:hover {
+    background-color: #5441fa;
+    cursor: pointer;
+}
+
+.Event .sorting .urutkan .boxUrutkan .isiBoxUrutkan span:hover {
+    background-color: #afc0ff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Event .sorting .filterProgram .boxFilterProgram {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram {
+    overflow-y: hidden;
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .keterangan {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .keterangan:hover {
+    cursor: pointer;
+    background-color: #e4e4e7;
+}
+
+
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .keterangan span {
+    color: #302f2f;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .isiFilterProgram.hideIsiFilterProgram {
+    height: 0;
+}
+
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .isiFilterProgram {
+    height: 100%;
+    padding: 0 1rem;
+    /* transform: translateY(-100px); */
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .isiFilterProgram .perIsiFilterProgram {
+    margin: 10px 0;
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .perFilterProgram .isiFilterProgram .perIsiFilterProgram label {
+    font-weight: 500;
+    color: #302f2f;
+    margin-left: 10px;
+}
+
+
+.Event .sorting .filterProgram .boxFilterProgram .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .button button {
+    width: 80%;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    background-color: #2B46A6;
+    border-radius: 7px;
+    border: 2px solid #2B46A6;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+.Event .sorting .filterProgram .boxFilterProgram .button button:last-child {
+    background-color: #fff;
+    color: #3f3f3f;
+    border: 2px solid #e4e4e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Event .program {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.keteranganProgram {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 4px solid #e4e4e7;
+    background-color: #f8fafc;
+    top: 10vh;
+    position: sticky;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+.keteranganProgram span.active {
+    color: #3629a7;
+}
+
+.keteranganProgram span {
+    color: #302f2f;
+    position: relative;
+    padding: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+
+.Event .program .sudahBerakhir {
+    width: 100%;
+    min-height: 70vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Event .program .sudahBerakhir h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #CE231C;
+}
+
+
+
+
+.Event .program .masihBerlangsung {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung:hover h2 {
+    color: #2b46a6;
+}
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung {
+    width: calc(90%/2);
+    background-color: #fff;
+    border: 2px solid #e4e4e7;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung img {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung h2 {
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #302f2f;
+}
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung h3 {
+    font-size: 1.2rem;
+    color: #CE231C;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung p {
+    font-size: .9rem;
+    padding: 10px;
+    color: #302f2f;
+}
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .date {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e4e4e7;
+}
+
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .date p {
+    color: #302f2f;
+    font-weight: 600;
+}
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .date .icon {
+    margin-right: 10px;
+    color: #302f2f;
+}
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .button button:hover {
+    opacity: .9;
+}
+
+.Event .program .masihBerlangsung .perMasihBerlangsung .button button {
+    text-align: center;
+    width: 95%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3629a7;
+}
+
+
+
+.masihBerlangsung .button-ungu {
+    background-color: #3629a7;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Event Mobile Start */
+
+
+.sortingMobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+
+.sortingMobile .filter .tombol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #4a4b4c;
+    border-radius: 7px;
+    border: 2px solid #e4e4e7;
+    background-color: #f8fafc;
+    cursor: pointer;
+
+}
+
+.sortingMobile .filter h2 {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.sortingMobile .filter .containerFilter {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: 99999999999;
+    padding: 1rem;
+}
+
+
+
+.sortingMobile .filter .containerFilter .boxFilter {
+    width: 100%;
+    /* height: 400px; */
+    padding: 1rem;
+    border: 2px solid #e4e4e7;
+    background-color: #f8fafc;
+    border-radius: 10px;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .containerTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    color: #4a4b4c;
+    margin-bottom: 20px;
+    /* padding: .5rem 1rem; */
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .containerTitle .title {
+    display: flex;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .containerTitle .title .icon {
+    font-size: 1.4rem;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .containerTitle .title h4 {
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .containerTitle .close:hover>* {
+    color: #2B46A6;
+    cursor: pointer;
+}
+
+
+
+.sortingMobile .filter .containerFilter .boxFilter .content {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFIlter {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFilter .title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4a4b4c;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFilter .isiFilterProgram {
+    display: none;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFilter .isiFilterProgram.show {
+    height: 100%;
+    display: inherit;
+    padding: 0 1rem;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFilter .isiFilterProgram .perIsiFilterProgram {
+    margin: 10px 0;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .content .perFilter .isiFilterProgram .perIsiFilterProgram label {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+
+.sortingMobile .filter .containerFilter .boxFilter .button {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .button button {
+    width: calc(90%/2);
+    background-color: #fff;
+    border: 2px solid #e4e4e7;
+    margin: 0 10px;
+    border-radius: 7px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.sortingMobile .filter .containerFilter .boxFilter .button button:last-child {
+    background-color: #3629a7;
+    border: 2px solid #3629a7;
+    color: #fff;
+}
+
+.sortingMobile .urutkan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: #4a4b4c;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 2px solid #e4e4e7;
+    /* transform: translateY(-10px); */
+}
+
+.sortingMobile .urutkan h2 {
+    margin-right: 100px;
+    font-size: 1rem;
+}
+
+
+.sortingMobile .urutkan .isiBoxUrutkan {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    padding: .5rem 0;
+
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan.show {
+    display: flex;
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan:hover {
+    background-color: #afc0ff;
+    cursor: pointer;
+}
+
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan.active:hover {
+    background-color: #5441fa;
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan {
+    width: 100%;
+    padding: 1rem;
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan.active {
+    background-color: #5441fa;
+    border: 1px solid #e4e4e7;
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan.active span {
+    color: #fff;
+}
+
+.sortingMobile .urutkan .isiBoxUrutkan .perIsiBoxUrutkan span {
+    color: #3f3f3f;
+    font-weight: 600;
+}
+
+.program .masihBerlangsung .selengkapnya:hover,
+.artikel .container .selengkapnya:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+
+.program .masihBerlangsung .selengkapnya,
+.artikel .container .selengkapnya {
+    margin-top: 70px;
+    width: 100%;
+    padding: 15px;
+    background-color: #3629a7;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+/* Event Mobile End */

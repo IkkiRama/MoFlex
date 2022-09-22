@@ -1,0 +1,185 @@
+/* Artikel Start */
+.heroArtikel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17vh;
+    margin-bottom: 50px;
+}
+
+.heroArtikel .container {
+    width: 70%;
+}
+
+.heroArtikel h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+}
+
+
+.heroArtikel ul {
+    overflow-x: auto;
+    list-style: none;
+    margin: 0 0 25px 0;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px 0;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--putih) var(--putih);
+}
+
+.heroArtikel ul::-webkit-scrollbar {
+    height: 7px;
+}
+
+.heroArtikel ul::-webkit-scrollbar-track {
+    background: var(--putih);
+}
+
+.heroArtikel ul::-webkit-scrollbar-thumb {
+    background-color: #C5C5C5;
+    border-radius: 25px;
+}
+
+
+.heroArtikel ul li {
+    display: inline-block;
+}
+
+
+.heroArtikel ul li p {
+    display: block;
+    padding: 10px 30px;
+    font-size: 14px;
+    background-color: #ddd;
+    font-weight: 500;
+    border-radius: 22px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.heroArtikel ul li p.active {
+    color: var(--putih);
+    background-color: var(--biru-cerah);
+
+}
+
+.heroArtikel form button {
+    width: 15%;
+}
+
+
+
+
+.subArtikel {
+    font-size: 1.7rem;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.artikelPilihan .bigArtikel {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 75px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.artikelPilihan .bigArtikel img {
+    width: 50%;
+    max-height: 475px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #F2F4F7;
+    transition: .3s;
+}
+
+.artikelPilihan .bigArtikel:hover img {
+    transform: scaleY(1.1);
+}
+
+.artikelPilihan .bigArtikel:hover .detailArtikel h3 {
+    color: var(--biru-cerah);
+    transition: .3s;
+}
+
+.artikelPilihan .bigArtikel .detailArtikel {
+    width: 50%;
+    padding: 50px 30px;
+}
+
+.kategori {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: var(--putih);
+    border-radius: 22px;
+    background-color: #19cf84;
+}
+
+.artikelPilihan .bigArtikel .detailArtikel h3 {
+    margin: 20px 0;
+}
+
+.artikelPilihan .bigArtikel .detailArtikel p {
+    margin-bottom: 50px;
+}
+
+.artikelPilihan .bigArtikel .detailArtikel .selengkapnya {
+    padding: 7px 15px;
+    font-size: .9rem;
+    background-color: #0d46e0;
+    font-weight: 500;
+    color: var(--putih);
+    border-radius: 22px;
+}
+
+
+
+.artikel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.artikel .perArtikel {
+    margin: 20px 10px;
+    width: calc(90%/3);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.artikel .perArtikel img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #F2F4F7;
+}
+
+.artikel .perArtikel:hover .detailArtikel h3 {
+    color: var(--biru-cerah);
+    transition: .3s;
+}
+
+.artikel .perArtikel .detailArtikel {
+    padding: 20px;
+}
+
+.artikel .perArtikel .detailArtikel h3 {
+    margin: 15px 0;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.artikel .perArtikel .detailArtikel p {
+    font-size: .9rem;
+}
+
+/* Artikel End */
