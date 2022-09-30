@@ -25,7 +25,9 @@
 .homeHero .caption p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+    opacity: .9;
 }
+
 
 .homeHero .heroImage {
     min-width: 50%;
@@ -174,7 +176,8 @@
 
 .fitur .perFitur p,
 .keunggulan .perKeunggulan p {
-    font-size: .93rem;
+    font-size: .96rem;
+    opacity: .8;
 }
 
 .fitur .perFitur img {

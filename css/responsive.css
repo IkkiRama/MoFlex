@@ -554,7 +554,6 @@
 
     .toTop {
         bottom: 1.16rem;
-        right: 40%;
     }
 
     .homeHero .container {
@@ -1279,6 +1278,9 @@
 }
 
 @media(max-width:350px) {
+    .toTop {
+        bottom: .2rem;
+    }
     .toTop .icon {
         font-size: .8rem;
     }

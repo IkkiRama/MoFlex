@@ -142,6 +142,10 @@ section {
     background-color: #F2F4F7;
 }
 
+.btn:hover{
+    opacity: .9;
+}
+
 
 .btn:focus {
     border-radius: 8px;
@@ -287,6 +291,10 @@ header nav ul li a {
     font-size: 1rem;
     color: var(--putih);
     font-weight: 500;
+    opacity: .7;
+}
+header nav ul li a.active {
+    opacity: 1;
 }
 
 header nav ul li a:hover {
@@ -322,6 +330,7 @@ header nav ul li a:hover {
 }
 
 
+.navMobile ul li a.active,
 .navMobile ul li a:hover {
     color: #302f2f;
     background-color: #fff;
@@ -525,6 +534,7 @@ form button {
     font-size: 1.2rem;
     letter-spacing: .5px;
     line-height: 27px;
+    opacity: .9;
 }
 
 
@@ -713,7 +723,6 @@ footer p span {
 
 .hero .caption {
     width: 60%;
-
 }
 
 .hero .caption h1 {
@@ -725,7 +734,7 @@ footer p span {
 .hero .caption p {
     font-size: 1.3rem;
     font-weight: 400;
-    color: var(--putih);
+    color: #f2f0f0;
 }
 
 .hero .caption a {
@@ -741,14 +750,14 @@ footer p span {
     background-color: #fff;
     border-radius: 1.22rem;
     bottom: 0;
-    box-shadow: 0 0.07rem 0.18rem 0 rgb(0 0 0 / 13%);
+    box-shadow: 0 0.07rem 0.18rem 0 rgb(0 0 0 13%);
     cursor: pointer;
     color: #108ee9;
     font-size: .94rem;
     position: fixed;
     right: 1rem;
     padding: 3px 5px;
-    transform: translateY(150%);
+    transform: translateY(200%);
     z-index: 9;
     transition: ease-in-out .75s;
 }
