@@ -156,8 +156,8 @@ section {
 
 .btn-primary {
   color: var(--putih) !important;
-  background-color: var(--biru-cerah) !important;
-  border-color: var(--biru-cerah) !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
 
 .btn-primary:hover {
@@ -277,6 +277,7 @@ header nav ul li a {
   font-weight: 500;
   opacity: 0.7;
 }
+
 header nav ul li a.active {
   opacity: 1;
 }
@@ -360,15 +361,15 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
-.menu input:checked ~ span:nth-child(2) {
+.menu input:checked~span:nth-child(2) {
   transform: rotate(45deg) translate(1px, 6px);
 }
 
-.menu input:checked ~ span:nth-child(3) {
+.menu input:checked~span:nth-child(3) {
   transform: rotate(90deg) scale(0);
 }
 
-.menu input:checked ~ span:nth-child(4) {
+.menu input:checked~span:nth-child(4) {
   width: 100%;
   transform: rotate(-45deg) translate(1px, 2px);
 }
@@ -452,7 +453,7 @@ form button {
   width: 100%;
   border-top-left-radius: 100px;
   border-top-right-radius: 0;
-  background-color: var(--biru-cerah);
+  background-color: var(--primary-color);
 }
 
 .containerClient .clientTitle {
@@ -475,7 +476,7 @@ form button {
 .containerKerjasama {
   width: 100%;
   padding: 0;
-  background-color: var(--biru-cerah);
+  background-color: var(--primary-color);
 }
 
 .containerKerjasama .container {
@@ -512,7 +513,7 @@ form button {
   width: 100%;
   height: 100%;
   padding: 0;
-  background-color: var(--biru-cerah);
+  background-color: var(--primary-color);
 }
 
 .footer .container {
@@ -570,7 +571,7 @@ footer {
   width: 100%;
   height: 8vh;
   margin: 0;
-  background-color: var(--biru-cerah);
+  background-color: var(--primary-color);
 }
 
 footer .container {
@@ -641,7 +642,7 @@ footer p span {
   font-size: 1.5rem;
 }
 
-.modal .modal-title .icon:hover > * {
+.modal .modal-title .icon:hover>* {
   color: #2b46a6;
   cursor: pointer;
 }

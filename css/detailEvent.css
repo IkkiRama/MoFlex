@@ -1,325 +1,276 @@
 /* Halaman Detail Event start */
 .contentEvent {
-    width: 100%;
-    height: 30rem;
-    background-color: #E5E5E5;
-    padding-top: 120px;
-    padding-bottom: 50px;
+  width: 100%;
+  height: 30rem;
+  background-color: #e5e5e5;
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .contentEvent .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contentEvent .container .caption {
-    width: 60%;
-    color: #333333;
+  width: 60%;
+  color: #333333;
 }
 
 .contentEvent .container .caption h1 {
-    font-size: 2.5rem;
-    font-weight: 650;
-    line-height: 55px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 650;
+  line-height: 55px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
 }
 
 .contentEvent .container .caption p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
 }
 
 .contentEvent .container .caption h2 {
-    color: #CE231C;
-    font-weight: 650;
-    font-size: 1.7rem;
+  color: #ce231c;
+  font-weight: 650;
+  font-size: 1.7rem;
 }
 
 .contentEvent .container .img {
-    width: 40%;
-    height: 100%;
-    border-radius: 10px;
-    background-image: url("../img/calendar-works.jpg");
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../img/calendar-works.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
 .detailEvent {
-    width: 100%;
-    background-color: #F5F5F5;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .detailEvent .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .detailAcara {
-    width: 70%;
-    padding-bottom: 20px;
-    margin-right: 30px;
-    border-radius: 10px;
-    border: 1px solid #e4e4e7;
-    background-color: #fff;
+  width: 70%;
+  padding-bottom: 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+  border: 1px solid #e4e4e7;
+  background-color: #fff;
 }
-
 
 .detailHarga .detailTiket h2,
 .detailAcara h2 {
-    color: #CE231C;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 20px;
-    border-bottom: 2px solid #e4e4e7;
-    text-transform: capitalize;
+  color: #ce231c;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 20px;
+  border-bottom: 2px solid #e4e4e7;
+  text-transform: capitalize;
 }
 
 .detailAcara h3 {
-    color: #0175F4;
-    font-size: 1.2rem;
-    font-weight: 650;
-    text-transform: capitalize;
+  color: #0175f4;
+  font-size: 1.2rem;
+  font-weight: 650;
+  text-transform: capitalize;
 }
-
-
 
 .tentangPembicara,
 .detailAcara .deskripsi,
 .detailAcara .waktuPelaksanaan {
-    padding: 30px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
 }
 
-
-
 .detailAcara .waktuPelaksanaan .date {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .detailAcara .waktuPelaksanaan .date .tanggal,
 .detailAcara .waktuPelaksanaan .date .waktu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .detailAcara .waktuPelaksanaan .date .waktu .icon,
 .detailAcara .waktuPelaksanaan .date .tanggal .icon {
-    margin-right: 20px;
-    font-size: 1rem;
-    color: #3f3f3f;
+  margin-right: 20px;
+  font-size: 1rem;
+  color: #3f3f3f;
 }
-
 
 .detailHarga .detailTiket .perTiket p,
 .detailAcara .waktuPelaksanaan .date .waktu p,
 .detailAcara .waktuPelaksanaan .date .tanggal p {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #3f3f3f;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3f3f3f;
 }
-
-
-
 
 .detailAcara .deskripsi p,
 .detailAcara .deskripsi ol {
-    font-size: 1rem;
-    color: #3f3f3f;
-    font-weight: 500;
-    margin: 15px 0;
+  font-size: 1rem;
+  color: #3f3f3f;
+  font-weight: 500;
+  margin: 15px 0;
 }
 
 .detailAcara .deskripsi ol {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .detailAcara .deskripsi ol li {
-    padding: 5px 10px;
-    list-style: inherit;
-    list-style-type: decimal;
+  padding: 5px 10px;
+  list-style: inherit;
+  list-style-type: decimal;
 }
-
-
 
 .detailAcara .deskripsi ol li span,
 .detailAcara .deskripsi p span {
-    font-weight: 800;
+  font-weight: 800;
 }
-
 
 .tentangPembicara h3 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-
-
-
-
-
 .tentangPembicara .orang {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #e4e4e7;
-    border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
 }
 
 .tentangPembicara .orang .profilOrang {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .tentangPembicara .orang .profilOrang h3 {
-    margin-bottom: 0;
-    color: #3f3f3f;
+  margin-bottom: 0;
+  color: #3f3f3f;
 }
-
 
 .tentangPembicara .orang p,
 .tentangPembicara .orang .profilOrang p {
-    color: #3f3f3f;
-    font-weight: 500;
+  color: #3f3f3f;
+  font-weight: 500;
 }
 
 .tentangPembicara .orang .profilOrang img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 20px;
-    object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
 }
-
 
 .detailHarga {
-    width: 30%;
-    position: sticky;
-    top: 12vh;
-    align-self: flex-start;
+  width: 30%;
+  position: sticky;
+  top: 12vh;
+  align-self: flex-start;
 }
-
 
 .detailHarga .detailTiket {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid #e4e4e7;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e4e4e7;
 }
-
-
 
 .detailHarga .detailTiket .perTiket {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
 
 .detailHarga button {
-    width: 100%;
-    padding: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-top: 20px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #5238B8;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: var(--primary-color);
 }
-
-
-
-
 
 .modal .modal-body form .form-group {
-    margin: 5px 0;
-    height: 100%;
+  margin: 5px 0;
+  height: 100%;
 }
-
 
 .modal .modal-body form .form-group .form-control {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
-
-
-
-
 .modal .modal-body form .form-group .form-control input {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .modal .modal-body form .form-group .form-control select {
-    width: 100%;
-    height: 44px;
-    border-radius: 10px;
-    border: 2px solid #e4e4e7;
-    font-size: 1rem;
-    color: #4e4e4e;
-    letter-spacing: .7px;
-    font-weight: 500;
-    padding: 0 20px;
+  width: 100%;
+  height: 44px;
+  border-radius: 10px;
+  border: 2px solid #e4e4e7;
+  font-size: 1rem;
+  color: #4e4e4e;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  padding: 0 20px;
 }
 
 .modal .modal-body form .form-group .form-control .icon {
-    width: 10%;
-    position: absolute;
-    right: 3px;
-    top: 15px;
-    bottom: 15px;
-    cursor: pointer;
-    color: #4a4b4c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+  width: 10%;
+  position: absolute;
+  right: 3px;
+  top: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  color: #4a4b4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
-
 
 .modal .modal-footer h2 {
-    color: #4a4b4c;
-    font-size: 1rem;
-    text-transform: capitalize;
+  color: #4a4b4c;
+  font-size: 1rem;
+  text-transform: capitalize;
 }
 
-
-
 .modal .modal-footer h2 span {
-    color: #CE231C;
+  color: #ce231c;
 }
 
 .modal .modal-footer button {
-    padding: 8px 30px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #3629a7;
-    font-weight: 600;
-    border-radius: 8px;
+  padding: 8px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3629a7;
+  font-weight: 600;
+  border-radius: 8px;
 }
-
-
-
-
 
 /* Halaman Detail Event end */
