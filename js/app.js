@@ -9,7 +9,7 @@ menu.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
   let posisi = window.scrollY > 200;
   scrollTop.classList.toggle("show", posisi);
-  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     scrollTop.classList.toggle("show");
   }
 });
